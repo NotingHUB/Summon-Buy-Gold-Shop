@@ -19,16 +19,16 @@ local AutoSummonJujutsu = false
 local SummonSpeed = 0.5 
 
 local GoldShopItems = {
-    {Currency = "Gold", Item = "GreenEssence", Amount = 15, Selected = false},
-    {Currency = "Gold", Item = "RedEssence", Amount = 3, Selected = false},
-    {Currency = "Gold", Item = "PurpleEssence", Amount = 3, Selected = false},
-    {Currency = "Gold", Item = "BlueEssence", Amount = 3, Selected = false},
-    {Currency = "Gold", Item = "SuperStatChip", Amount = 10, Selected = false},
-    {Currency = "Gold", Item = "PinkEssence", Amount = 3, Selected = false},
-    {Currency = "Gold", Item = "RainbowEssence", Amount = 1, Selected = false},
+    {Currency = "Gold", Item = "GreenEssence", Amount = 15, Selected = true},
+    {Currency = "Gold", Item = "RedEssence", Amount = 3, Selected = true},
+    {Currency = "Gold", Item = "PurpleEssence", Amount = 3, Selected = true},
+    {Currency = "Gold", Item = "BlueEssence", Amount = 3, Selected = true},
+    {Currency = "Gold", Item = "SuperStatChip", Amount = 10, Selected = true},
+    {Currency = "Gold", Item = "PinkEssence", Amount = 3, Selected = true},
+    {Currency = "Gold", Item = "RainbowEssence", Amount = 1, Selected = true},
     {Currency = "Gold", Item = "TraitRerolls", Amount = 3, Selected = true},
-    {Currency = "Gold", Item = "YellowEssence", Amount = 3, Selected = false},
-    {Currency = "Gold", Item = "StatChip", Amount = 10, Selected = false}
+    {Currency = "Gold", Item = "YellowEssence", Amount = 3, Selected = true},
+    {Currency = "Gold", Item = "StatChip", Amount = 10, Selected = true}
 }
 
 local ScreenGui = Instance.new("ScreenGui")
